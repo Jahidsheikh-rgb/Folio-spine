@@ -1,0 +1,28 @@
+{
+  "name": "book-shop-frontend",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Production-grade Book Shop Frontend built with Next.js (Node.js), Tailwind CSS, and Zustand",
+  "scripts": {
+    "dev": "next dev -p 3000",
+    "build": "next build",
+    "start": "next start -p 3000",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "axios": "^1.7.7",
+    "clsx": "^2.0.0",
+    "lucide-react": "^0.445.0",
+    "next": "14.2.15",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-hot-toast": "^2.4.1",
+    "tailwind-merge": "^2.5.2",
+    "zustand": "^4.5.5"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.47",
+    "tailwindcss": "^3.4.13"
+  }
+}
